@@ -32,6 +32,7 @@ module.exports = function (grunt) {
 				'smarttabs': true,
 				'white': false,
 				'laxcomma': true,
+				'expr': true,
 
 				'predef': [
 					'define',
