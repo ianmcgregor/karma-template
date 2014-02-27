@@ -8,7 +8,7 @@ define(
 
 		describe('just checking', function() {
 			it('should return Hello world', function() {
-			  HelloWorld.sayHello().should.equal('Hello world');
+				HelloWorld.sayHello().should.equal('Hello world');
 			});
 		});
 });

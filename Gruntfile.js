@@ -8,7 +8,8 @@ module.exports = function (grunt) {
 			all: [
 				'Gruntfile.js',
 				'js/**/*.js',
-				'test/**/*.js'
+				'test/**/*.js',
+				'!js/vendors/**/*.js'
 			],
 			options: {
 				'node': true,
@@ -29,9 +30,7 @@ module.exports = function (grunt) {
 				'unused': true,
 				'strict': true,
 				'trailing': true,
-				'smarttabs': true,
 				'white': false,
-				'laxcomma': true,
 				'expr': true,
 
 				'predef': [
