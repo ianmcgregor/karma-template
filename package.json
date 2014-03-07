@@ -20,7 +20,8 @@
     "mocha": "~1.17.1",
     "karma": "~0.10.9",
     "karma-chai": "~0.1.0",
-    "chai": "~1.9.0"
+    "chai": "~1.9.0",
+    "karma-junit-reporter": "~0.2.1"
   },
   "scripts": {
     "preinstall": "which -s grunt && grunt --version | grep grunt-cli > /dev/null 2>&1; if [[ \"$?\" != 0 ]]; then echo 'ERROR: grunt-cli must be installed globally'; exit 1; fi"
